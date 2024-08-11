@@ -3,16 +3,12 @@
   "name": "Osu score calculator",
   "description": "Allows you to determine how many pp you will get for score",
   "version": "1.0",
-  "content_scripts": [
-    {
-      "matches": ["https://osu.ppy.sh/*"]
-    }
+
+  "permissions": [
+    "activeTab"
   ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png"
-  },
-  "host_permissions": [
-    "https://osu.ppy.sh/*"
-  ]
+  }
 }

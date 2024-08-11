@@ -8,11 +8,14 @@
   <body>
     <h1>Calculate score</h1>
     <div role="main">
-      <form>
-        <label for="score">Your score</label>
+      <form id="form">
+        <label id="user-id-label" for="score">Enter user id</label>
+        <input type="number" min="0" id="user-id" />
+        <label id="score-label" for="score">Enter your new score</label>
         <input type="number" min="0" id="score" />
         <button id="button">Calculate!</button>
       </form>
+      <div id="result"></div>
     </div>
   </body>
 </html>
