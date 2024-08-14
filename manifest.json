@@ -10,5 +10,10 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": "osu-score-calculator-logo.png"
+  },
+  "icons": {
+    "16": "osu-score-calculator-logo-16.png",
+    "48": "osu-score-calculator-logo-48.png",
+    "128": "osu-score-calculator-logo-128.png"
   }
 }
