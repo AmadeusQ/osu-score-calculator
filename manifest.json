@@ -9,6 +9,6 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_icon": "osu-score-calculator-logo.png"
   }
 }
